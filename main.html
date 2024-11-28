@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="design.css">
+<style>
+AnyText{
+color:white;
+}
+</style>
+</head>
+<body background="im.gif" >
+    <div class="container">
+        <h1>Get your recipies decided with your incredients</h1>
+        <div class="input-section">
+            <label for="ingredients" color:"white">Enter ingredients you have:</label>
+            <input type="text" id="ingredients" placeholder="Eg. rice, onion">
+            <button onclick="getRecipes()">Find Recipes</button>
+        </div>
+
+        <div class="recipe-section">
+            <h2 color:"white">Recipes You Can Make:</h2>
+			<ul id="recipe-list"></ul>
+        </div>
+    </div>
+
+    <script src="javasc.js"></script>
+</body>
+</html>
